@@ -1,0 +1,70 @@
+# Build directories
+build/
+bin/
+obj/
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+tictactoe
+TicTacToe
+portable/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiler
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Debug
+*.pdb
+*.dSYM/
+
+# Logs
+*.log
+build_errors.txt
+
+# Save files
+savegame.txt
+savegame.txt_board.dat
+*.dat
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
